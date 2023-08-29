@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+/*font-family: 'Fira Sans', sans-serif;*/
+*{
+    caret-color: transparent;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../assets/inicio.svg");
+}
+.sombra{
+    width: 425px;
+    height:575px;
+    background-color: rgba(12, 11, 12, 0.05);
+    display: flex;
+    justify-content: center;
+    border-radius: 2%;
+}
+.login2{
+    width:400px;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 5vh;
+}
+.login{
+    width: 400px;
+    height: 200px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5vh 5vh 0 0;
+}
+.login h1{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+.login p{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+.sombra h1{
+    font-family: 'Fira Sans', sans-serif;
+}
+.logimenu{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.logimenu .user {
+    position: relative;
+    margin-bottom: 10px;
+}
+  
+.logimenu .user input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #08083b;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid #0e4e79;
+    outline: none;
+    background: transparent;
+}
+  
+.logimenu .user label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    color: #070836;
+    pointer-events: none;
+    transition: 0.5s;
+}
+  
+.logimenu .user input:focus ~ label,
+.logimenu .user input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: black;
+    font-size: 12px;
+}
+.nm{
+    display: flex;
+    align-items: flex-end;
+    font-size: 13px;
+}
+#ca{
+    margin-left: 30px;
+}
+#ca:hover{
+    color:#30a1ec;
+}
+.botin:hover{
+    background-color: #330867;
+    color: white;
+}
+
+.botin{
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+    background: linear-gradient(to right, #56317a 0%, #3ab5b0 100% );
+    border-radius: 30px;
+    color: white;
+}
+
+.botin:hover{
+    background: linear-gradient(to right, #4fdbeed3 0%, #26eb71 100% );
+    color: black;
+}
