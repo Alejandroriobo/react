@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Open+Sans:wght@300&display=swap');
+
+*{
+    caret-color: transparent;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;  
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(-225deg, rgb(0, 253, 253) 0%, rgb(0, 42, 82) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(0, 2, 50);    
+}
+.opc{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.icono{
+    display: flex;
+    align-items: center;
+}
+.icono img{
+    width: 100px;
+    height: 100px;
+}
+.menufinal{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.men:hover{
+    color: aqua;
+    border: 1px solid aqua;
+    border-radius: 1px;
+    cursor: pointer;
+    border-radius: 5px ;
+    padding: 3px;
+}
+.dates{
+    display: flex;
+    justify-content: space-around;
+
+}
+.dates h1{
+    color: aqua;
+}
+.for{
+    font-weight: 200;
+    margin-top: -20px;
+}
+.texto{
+    color: white;
+    display: flex;
+    justify-content: initial;
+}
+.bot{
+    background-color: rgb(0, 2, 50);
+    color: aqua;
+    padding: 8px;
+    border-radius: 50px;
+    
+    border-color:aqua;
+    width: 150px;
+    font-weight: bolder;
+    margin-top: 30px;
+    border-width: 3px;
+}
+.bot:hover{
+    font-weight: bold;
+    background-color: aqua;
+    color: rgb(0, 2, 50);
+    border-color: rgb(0, 2, 50);
+    font-weight: bolder;
+}
+.imagen img{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+}

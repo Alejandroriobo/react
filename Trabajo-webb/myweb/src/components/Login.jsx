@@ -32,7 +32,7 @@ function Login()  {
                             <p id="ca">Forget Password ?</p>
                         </div>  
                     </div>
-                    <button class="botin"  onclick="location.href='/Menu/Inicio.html'"  >LOGIN</button>
+                    <a class="botin"  href='./Menu.jsx'  >LOGIN</a>
                 </div>
             </div>
             </div>
